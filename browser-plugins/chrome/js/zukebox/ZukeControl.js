@@ -5,7 +5,7 @@ function ZukeControl(dom) {
     dom.$controlButton.on('click', toggle);
 
     function setIcon() {
-        dom.$controlButton.attr('class', playing ? 'icon-play' : 'icon-pause');
+        dom.$controlButton.attr('class', playing ? 'icon-pause' : 'icon-play');
     }
 
     function toggle() {
